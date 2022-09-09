@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+
+    --font-padrao: 'Montserrat', sans-serif;
+    --normal: normal;
+    --medium: medium;
+    --bold: bold;
+
+  }
+
+*, a {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+
+    color: var(--text-color);
+    font-family: var(--font-padrao);
+}
+
+
+
+body {
+    max-height: max-content;
+    background: var(--body-background);
+    margin: 30px 50px 0 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+/*logo*/
+header h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center; 
+}
+
+span {
+    color: var(--color-logo)
+}
+/*fim logo*/
+
+/*nav*/
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 400px;
+
+    background: var(--color-nav);
+    border-bottom: 1px solid var(--color-border);
+}
+
+header > nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+
+    font-weight: var(--normal);
+}
+
+header > nav > ul > li {
+    color: white;
+    font-style: none;
+}
+
+header > nav > button {
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    color: var(--color-input);
+    font-weight: var(--bold);
+    text-transform: uppercase;
+    transition: 2ms ease-out;
+
+    cursor: pointer;
+}
+
+header > nav > button:hover {
+    background: #ff5b50;
+}
+
+
+
+
+
