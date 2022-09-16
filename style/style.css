@@ -33,6 +33,10 @@ body {
     max-height: max-content;
     background: var(--body-background);
     margin: 30px 50px 0 50px;
+
+    background-image: url(../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 header {
@@ -106,7 +110,9 @@ header > nav > button:hover {
     background: #ff5b50;
 }
 
-
+#content-icn {
+   
+}
 
 
 
