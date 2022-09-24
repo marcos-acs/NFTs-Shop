@@ -5,7 +5,7 @@
 Projeto construido dos desafios da Rocketseat.
 
 [Clique aqui para ver o resutado] {
-    
+    https://marcos-acs.github.io/NFTs/
 }
 
 ## 🚀 Tecnologias
