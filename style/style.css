@@ -179,17 +179,14 @@ p {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
-    flex-basis: 1;
+    width: 100%;
 }
 
 .gallery > div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    width: 100%;
-
+    
 }
 
 .gallery > div > img {
