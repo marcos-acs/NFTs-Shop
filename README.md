@@ -1,6 +1,6 @@
 # NFTs
 
-![preview](./assets/NFT-shop.png)
+![preview](assets/NFT-shop.png)
 
 Projeto construido dos desafios da Rocketseat.
 
